@@ -15,8 +15,9 @@ $scope.checkLunch = function ()
         var lunchitems = $scope.items;
 
         if(!lunchitems)
-        {
-        $scope.lunch_message ="Please enter data first";       
+        {          
+          $scope.item_count = 0;
+          $scope.lunch_message ="Please enter data first";       
         }
         else
         {
